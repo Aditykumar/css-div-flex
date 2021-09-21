@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
     }
 .parent_container{
     display: flex;
@@ -61,7 +62,7 @@ body{
 .circle{
 
     margin:400px 60px 60px 60px;
-    font-size: l23px;
+    font-size: 20px;
     padding-top: 60px;
     border: 8px solid rgb(56, 51, 51) ;
     height: 200px;
@@ -80,7 +81,10 @@ body{
     border: 5px red dashed;
     width: 400px;
     text-align: center;
-    color: hotpink;
+    color: rgb(219, 15, 117);
+    opacity: 0.5;
+    background-color: rgb(166, 228, 233);
+    font-weight: bold;
 
     }
 
