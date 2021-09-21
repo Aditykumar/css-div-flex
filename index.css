@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding:0px;
+    border: 5px rgb(147, 228, 42) solid;
+    background-image: url(./image/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+.parent_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    }
+.container1{
+    font-size: 23px;
+    padding-top: 10px;
+    text-align: center;
+    border: 3px red solid;
+    border-radius: 40px;
+    height: 100px;
+    width: 300px;
+    background: black;
+    color: white;
+    font-style: italic;
+    }
+.container2{
+    background-color: black;
+    border: 5px solid red;
+    color: white;
+    border-radius: 40px;
+    width: 368px;
+    height: 30px;
+    padding: 30px 30px 0px 30px;
+    font-size: 23px;
+    text-align: center;  
+    font-style: italic;
+    }
+.container3{
+    background-color: black;
+    border: 5px solid red;
+    color: white;
+    border-radius: 40px;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    }
+.flex_circle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: start;
+   margin-top: 50xp;
+    }
+
+.circle{
+
+    margin:400px 60px 60px 60px;
+    font-size: l23px;
+    padding-top: 60px;
+    border: 8px solid rgb(56, 51, 51) ;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(14, 165, 127);
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    }
+.form{
+    margin:60px;
+    font-size: large;
+    height: 700px;
+    border: 5px red dashed;
+    width: 400px;
+    text-align: center;
+    color: hotpink;
+
+    }
+
+
+.menu{
+    border: 5px solid red;
+    background-color: black;
+    height: 45px;
+    width: 480px;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    }
+.menu_center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+
+    }
+.flex_list{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+
+    }   
+.list{
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 3px green solid;
+    border-radius: 30px;
+    width: 300px;
+    background: cyan;
+    color: blue;
+    }
